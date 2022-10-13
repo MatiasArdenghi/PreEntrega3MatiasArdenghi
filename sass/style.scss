@@ -1,0 +1,24 @@
+@import 
+    "generales",
+    "index",
+    "productos",
+    "sugerencias",
+    "nosotros",
+    "contacto",
+    "mediaQueries",
+    "variables";
+
+@mixin box_model ($relleno , $margen , $borde , $border_Radius){
+    padding: $relleno;
+    margin: $margen;
+    border: $borde;
+    border-radius: $border_Radius;
+}
+
+
+
+
+
+
+
+

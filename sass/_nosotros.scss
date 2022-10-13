@@ -1,0 +1,31 @@
+@import "variables";
+
+/*nosotros*/
+
+.sectionNosotros{
+    margin: 0.5em;
+    p{      
+        border: none;
+        background: none;
+    }
+    .comienzos{
+        border: 3px solid $negro;
+        background-color: rgba(218, 165, 32, 0.615);
+        color: $negro;
+        font-weight: bold;
+        margin-bottom: 1em
+    }
+    .seguimiento{
+        @extend .comienzos;
+        background-color: rgba(255, 255, 255, 0.615);
+        color: $negro;
+    }
+    .seguimiento2{
+        @extend .comienzos;
+        background-color: rgba(255, 255, 255, 0.615);
+        color: $negro;
+    }
+    .final{
+        @extend .comienzos;
+    }
+}

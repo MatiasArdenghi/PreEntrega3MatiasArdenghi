@@ -1,0 +1,58 @@
+@import "variables";
+/*sugerencias version mobile*/
+
+/* declaro las areas de la grilla */
+
+header{
+    grid-area: header;
+}
+
+.sugerencias{
+    grid-area: intro;
+}
+
+.maridaje{
+    grid-area: maridaje;
+}
+
+footer{
+    grid-area: footer;
+}
+
+/* armo la grilla */
+
+.grillaSugerencias{
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "header"    
+    "intro"
+    "maridaje"
+    "footer";
+}
+
+/*estilos generales y cartas*/
+
+.containerMaridaje{
+    width: 100%;
+}
+
+.containerMaridaje p{
+    border: none;
+    background: none;
+}
+
+.cards{
+    background-color: $negro_claro;
+    margin: 2em;
+    border: solid 2px $blanco;
+    width: 300px auto;
+}
+
+.cards img{
+    width: 100%;
+    border-top: 2px solid $blanco;
+    border-bottom: 2px solid $blanco;
+}

@@ -1,0 +1,67 @@
+@import "variables";
+/*contacto version mobile*/
+
+/* declaro las areas de la grilla */
+
+header{
+    grid-area: header;
+}
+
+.contactoForm{
+    grid-area: form;
+}
+
+.trabajaCN{
+    grid-area: job;
+}
+
+footer{
+    grid-area: footer;
+}
+
+/*armo la grilla*/
+
+.grillaContacto{
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "header"    
+    "form"
+    "job"
+    "footer";
+}
+
+/*estilo para el formulario*/
+
+.formulario{
+    h2{
+        margin: 0;
+        text-shadow: none;
+        color: $negro;
+    }
+    width: 300px auto;
+    background-color: rgba(255, 255, 255, 0.615);
+    padding: 2em;
+    margin: 1em;
+    border-radius: 10px;
+    
+    .controls{
+        width: 100%;
+        background-color: rgba(218, 165, 32, 0.822);
+        color: black;
+        padding: 0.5em;
+        border-radius: 4px;
+        border: solid 2px $negro;
+        margin-bottom: 1em;
+    }
+    .botons{
+        @extend .controls;
+        border: none;
+        background-color: $negro;
+        color: $principal;
+        font-weight: bold;
+    }
+}
+

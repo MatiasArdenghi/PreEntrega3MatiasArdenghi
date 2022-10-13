@@ -4,101 +4,104 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Podes conocer nuestras formas de contacto, nuestras redes sociales y como contactarte con nosotros, tambien si te ineteresa trabajar con nuesta Cerveza.">
     <!-- link bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- enlace a css -->
-    <link rel="stylesheet" href="../css/estilos.css">
+    <!-- enlace a css/sass -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- icono -->
+    <link rel="shortcut icon" href="../img/favicon.ico">
     <!-- titulo -->
-    <title>Spacecraft Cerveceria</title>
+    <title>Spacecraft | Contacto</title>
 </head>
 <body>
     <!-- encabezado navegable -->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light fondo-claro">
-            <div class="container-fluid">
-                <div class="logoImg">
-                    <a class="navbar-brand" href="../index.html">
-                        <img src="../img/logoInicio.png" alt="Logo de Spacecraft">
-                    </a>
+    <div class="grillaContacto">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light fondo-claro">
+                <div class="container-fluid">
+                    <div class="logoImg">
+                        <a class="navbar-brand" href="../index.html">
+                            <img src="../img/logoInicio.png" alt="Logo de Spacecraft">
+                        </a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse cont-list" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" href="productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" href="sugerencias.html">Sugerencias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" href="nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse cont-list" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-white" href="productos.html">Productos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-white" href="sugerencias.html">Sugerencias</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-white" href="nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-white" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <!-- formulario de contacto -->
-    <section class="formulario">
-        <div class="containerForm">
-            <div class="tituloForm">
-                <h1>¿En que podemos ayudarte?</h1>
-            </div>
-            <p>Para dejarnos tu consulta por favor completa el siguiente formulario.</p>
+            </nav>
+        </header>
+        <!-- formulario de contacto -->
+        <section class="contactoForm">
+            <h1>¿En que podemos ayudarte?</h1>
             <div class="formulario">
+                <h2>Para dejarnos tu consulta por favor completa el siguiente formulario.</h2>
                 <form>
-                    <input type="text" name="nombre" placeholder="Nombre">
-                    <input type="text" name="apellido" placeholder="Apellido">
-                    <input type="email" name="e-mail" placeholder="E-mail">
-                    <textarea name="mensaje" placeholder="Dejanos aqui tu consulta"></textarea>
-                    <input class="boton" type="button" value="Enviar">
+                    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+                    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+                    <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+                    <textarea class="controls" name="mensaje" placeholder="Dejanos aqui tu consulta"></textarea>
+                    <input class="botons" type="submit" value="Enviar">
+                        <!-- <input type="text" name="nombre" placeholder="Nombre">
+                        <input type="text" name="apellido" placeholder="Apellido">
+                        <input type="email" name="e-mail" placeholder="E-mail">
+                        <textarea name="mensaje" placeholder="Dejanos aqui tu consulta"></textarea>
+                        <input class="boton" type="button" value="Enviar"> -->
                 </form>
             </div>
-        </div>
-    </section>
-    <!-- section final -->
-    <section class="trabajo">
-        <div class="trabajaCN">
-            <h2>Trabaja Con Nosotros</h2>
-            <p>Si lo tuyo es el amor por la cerveza artesanal, te damos la oportunidad que puedas formar parte de nuestro equipo de Spacecraft, para mas info no dudes en contactarnos!</p>
-        </div>
-        <div class="imgCerveza">
-            <img src="../img/cerveza.png" alt="cerveza en mano">
-        </div>
-    </section>
-    <!-- footer -->
-    <footer>
-        <h3>Seguinos y Contactanos</h3>
-        <div class="redes">
-            <div class="containerRedes">
-                <a href="https://api.whatsapp.com/send?phone=:5491167812719&text=Hola, Quiero adquirir sus productos!"target="_blank">
-                    <img src="../svg/whatsapp.svg" alt="logo whatsapp">
-                </a>
+        </section>
+        <!-- section final -->
+        <section class="trabajaCN">
+            <div class="contTrabajaCN">
+                <h3>Trabaja Con Nosotros</h3>
+                <p>Si lo tuyo es el amor por la cerveza artesanal, te damos la oportunidad que puedas formar parte de nuestro equipo de Spacecraft, para mas info no dudes en contactarnos!</p>
             </div>
-            <div class="containerRedes">
-                <a href="https://www.instagram.com/spacecraftcerveceria/?igshid=YmMyMTA2M2Y%3D" target="_blank">
-                    <img src="../svg/instagram.svg" alt="logo instagram">
-                </a>
+        </section>
+        <!-- footer -->
+        <footer>
+            <h3>Seguinos y Contactanos</h3>
+            <div class="redes">
+                <div class="containerRedes">
+                    <a href="https://api.whatsapp.com/send?phone=:5491167812719&text=Hola, Quiero adquirir sus productos!"target="_blank">
+                        <img src="../svg/whatsapp.svg" alt="logo whatsapp">
+                    </a>
+                </div>
+                <div class="containerRedes">
+                    <a href="https://www.instagram.com/spacecraftcerveceria/?igshid=YmMyMTA2M2Y%3D" target="_blank">
+                        <img src="../svg/instagram.svg" alt="logo instagram">
+                    </a>
+                </div>
+                <div class="containerRedes">
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrlGBGJVLMvtbVQvNXsswKrwVrcXpxtQHCcppBBrMnplcDlkSZrFMjTjKjLlBsKslTkpcg" target="_blank">
+                        <img src="../svg/gmail.svg" alt="logo de gmail">
+                    </a>
+                </div>
             </div>
-            <div class="containerRedes">
-                <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrlGBGJVLMvtbVQvNXsswKrwVrcXpxtQHCcppBBrMnplcDlkSZrFMjTjKjLlBsKslTkpcg" target="_blank">
-                    <img src="../svg/gmail.svg" alt="logo de gmail">
-                </a>
-            </div>
-        </div>
-        <div class="copySpace">
-            <strong class="copy">&copy; Spacecraft Cerveceria - Todos los derechos reservados</strong>
-        </div>    
-    </footer>
+            <div class="copySpace">
+                <strong class="copy">&copy; Spacecraft Cerveceria - Todos los derechos reservados</strong>
+            </div>    
+        </footer>
+    </div>
     <!-- scripts bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

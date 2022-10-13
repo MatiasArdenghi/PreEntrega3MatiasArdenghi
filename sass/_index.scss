@@ -1,0 +1,78 @@
+@import "variables";
+/* inicio version mobile */
+
+/* declaro las areas de la grilla */
+
+header{
+    grid-area: header;
+}
+
+.sectionVideo{
+    grid-area: presentacion;
+}
+
+.difCerveza{
+    grid-area: diferencia;
+}
+
+footer{
+    grid-area: footer;
+}
+
+/* armo la grilla */
+
+.grilla{
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "header"    
+    "presentacion"
+    "diferencia"
+    "footer";
+}
+
+/* estilos generales inicio*/
+
+.cont-list{ 
+    transition: all 1s;
+    margin-top: 0.5em;
+    border-top: solid 2px $principal; /*estilo para cuando desplego menu*/
+}
+
+.fondo-claro {
+    background-color: $negro_claro; /*color fondo nav*/
+}
+
+.navbar-toggler{
+    margin: 0;
+    background-color: $blanco; /*color fondo icono hamburg*/
+}
+
+.logoImg img{
+    width: 5em; /*estilo para logo*/
+}
+
+video{
+    width: 100%;
+    border: solid 12px $negro; /*estilo video presentacion*/
+}
+
+.imgDif img{
+    display: none;
+}
+
+.redes{
+    margin: 2em auto;
+}
+
+footer, .copy{
+    margin-bottom: 0;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

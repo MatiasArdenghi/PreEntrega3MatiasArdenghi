@@ -1,0 +1,59 @@
+@import "variables";
+/* fuentes de texto */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&display=swap');
+/* reseteo */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* estilos generales */
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: $blanco;
+    background-image: url(../img/fondoWeb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    border-bottom: solid 3px $principal;
+}
+
+h1, h2, h3{
+    margin: 1em auto;
+    color: $principal;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 3px 3px 0 $negro;
+    font-size: 2em;
+}
+
+h2, h3{
+    font-size: 1.5em;
+}
+
+
+p{
+    margin: 1em;
+    padding: 1em;
+    font-size: 1.1em;
+    border-top: inset 3px  $blanco;
+    border-bottom: inset 3px  $blanco;
+    border-radius: 1em;
+    background-color: $negro_claro;       
+}
+
+footer{
+    justify-content: center;
+    border-top:solid 3px $principal;
+    background-color: $negro_claro;
+}
+
+strong{
+    font-weight: normal;
+}
