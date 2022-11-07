@@ -215,6 +215,19 @@
                 }
             }
         }
+        .cartaProx{
+            transition: all 400ms ease;
+            &:hover{
+                transform: translateY(-3%);
+            }
+            a{
+            transition: all 400ms ease;
+                &:hover{
+                    background: $boton_transf;
+                    color: $negro;
+                }
+            }
+        }
     }
 }
 

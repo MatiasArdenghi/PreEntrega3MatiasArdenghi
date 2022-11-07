@@ -94,3 +94,22 @@ footer{
         }
     }
 }
+
+.cartaProx{
+    background-color: $negro_claro;
+    margin: 2em;
+    border: solid 2px  $blanco;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    a{
+        font-size: 2em;
+        padding: 10px;
+        text-decoration: none;
+        font-family: 'Bebas Neue', cursive;
+        color: $principal;
+        border: 2px solid $principal;
+        border-radius: 4px;
+    }
+}

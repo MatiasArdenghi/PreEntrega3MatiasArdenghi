@@ -4,6 +4,68 @@
 /* reseteo */
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* estilos generales */
+body {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+  background-image: url(../img/fondoWeb.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  border-bottom: solid 3px #DAA520;
+}
+
+h1, h2, h3 {
+  margin: 1em auto;
+  color: #DAA520;
+  font-family: "Bebas Neue", cursive;
+  text-shadow: 3px 3px 0 #000000;
+  font-size: 2em;
+}
+
+h2, h3 {
+  font-size: 1.5em;
+}
+
+p {
+  margin: 1em;
+  padding: 1em;
+  font-size: 1.1em;
+  border-top: inset 3px #fff;
+  border-bottom: inset 3px #fff;
+  border-radius: 1em;
+  background-color: rgba(0, 0, 0, 0.615);
+}
+
+footer {
+  justify-content: center;
+  border-top: solid 3px #DAA520;
+  background-color: rgba(0, 0, 0, 0.615);
+}
+
+strong {
+  font-weight: normal;
+}
+
+/*colores*/
+/* fuentes de texto */
+/* reseteo */
 * {
   margin: 0;
   padding: 0;
@@ -131,6 +193,64 @@ footer, .copy {
 }
 
 /*colores*/
+/* fuentes de texto */
+/* reseteo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* estilos generales */
+body {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+  background-image: url(../img/fondoWeb.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  border-bottom: solid 3px #DAA520;
+}
+
+h1, h2, h3 {
+  margin: 1em auto;
+  color: #DAA520;
+  font-family: "Bebas Neue", cursive;
+  text-shadow: 3px 3px 0 #000000;
+  font-size: 2em;
+}
+
+h2, h3 {
+  font-size: 1.5em;
+}
+
+p {
+  margin: 1em;
+  padding: 1em;
+  font-size: 1.1em;
+  border-top: inset 3px #fff;
+  border-bottom: inset 3px #fff;
+  border-radius: 1em;
+  background-color: rgba(0, 0, 0, 0.615);
+}
+
+footer {
+  justify-content: center;
+  border-top: solid 3px #DAA520;
+  background-color: rgba(0, 0, 0, 0.615);
+}
+
+strong {
+  font-weight: normal;
+}
+
+/*colores*/
 /* section productos */
 .texto p {
   padding: 0.5em;
@@ -216,6 +336,83 @@ footer {
   color: #DAA520;
   border: 2px solid #DAA520;
   border-radius: 4px;
+}
+
+.cartaProx {
+  background-color: rgba(0, 0, 0, 0.615);
+  margin: 2em;
+  border: solid 2px #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cartaProx a {
+  font-size: 2em;
+  padding: 10px;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  color: #DAA520;
+  border: 2px solid #DAA520;
+  border-radius: 4px;
+}
+
+/*colores*/
+/* fuentes de texto */
+/* reseteo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* estilos generales */
+body {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+  background-image: url(../img/fondoWeb.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  border-bottom: solid 3px #DAA520;
+}
+
+h1, h2, h3 {
+  margin: 1em auto;
+  color: #DAA520;
+  font-family: "Bebas Neue", cursive;
+  text-shadow: 3px 3px 0 #000000;
+  font-size: 2em;
+}
+
+h2, h3 {
+  font-size: 1.5em;
+}
+
+p {
+  margin: 1em;
+  padding: 1em;
+  font-size: 1.1em;
+  border-top: inset 3px #fff;
+  border-bottom: inset 3px #fff;
+  border-radius: 1em;
+  background-color: rgba(0, 0, 0, 0.615);
+}
+
+footer {
+  justify-content: center;
+  border-top: solid 3px #DAA520;
+  background-color: rgba(0, 0, 0, 0.615);
+}
+
+strong {
+  font-weight: normal;
 }
 
 /*colores*/
@@ -351,6 +548,64 @@ strong {
   background-color: rgba(255, 255, 255, 0.615);
   color: #000000;
 }
+/*colores*/
+/* fuentes de texto */
+/* reseteo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* estilos generales */
+body {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+  background-image: url(../img/fondoWeb.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  border-bottom: solid 3px #DAA520;
+}
+
+h1, h2, h3 {
+  margin: 1em auto;
+  color: #DAA520;
+  font-family: "Bebas Neue", cursive;
+  text-shadow: 3px 3px 0 #000000;
+  font-size: 2em;
+}
+
+h2, h3 {
+  font-size: 1.5em;
+}
+
+p {
+  margin: 1em;
+  padding: 1em;
+  font-size: 1.1em;
+  border-top: inset 3px #fff;
+  border-bottom: inset 3px #fff;
+  border-radius: 1em;
+  background-color: rgba(0, 0, 0, 0.615);
+}
+
+footer {
+  justify-content: center;
+  border-top: solid 3px #DAA520;
+  background-color: rgba(0, 0, 0, 0.615);
+}
+
+strong {
+  font-weight: normal;
+}
+
 /*colores*/
 /*contacto version mobile*/
 /* declaro las areas de la grilla */
@@ -634,6 +889,19 @@ strong {
     transition: all 400ms ease;
   }
   .containerProductos .carta a:hover {
+    background: rgba(218, 165, 32, 0.781);
+    color: #000000;
+  }
+  .containerProductos .cartaProx {
+    transition: all 400ms ease;
+  }
+  .containerProductos .cartaProx:hover {
+    transform: translateY(-3%);
+  }
+  .containerProductos .cartaProx a {
+    transition: all 400ms ease;
+  }
+  .containerProductos .cartaProx a:hover {
     background: rgba(218, 165, 32, 0.781);
     color: #000000;
   }

@@ -1,12 +1,11 @@
-@import 
-    "generales",
-    "index",
-    "productos",
-    "sugerencias",
-    "nosotros",
-    "contacto",
-    "mediaQueries",
-    "variables";
+@import "generales";
+@import "index";
+@import "productos";
+@import "sugerencias";
+@import "nosotros";
+@import "contacto";
+@import "mediaQueries";
+@import "variables";
 
 @mixin box_model ($relleno , $margen , $borde , $border_Radius){
     padding: $relleno;
